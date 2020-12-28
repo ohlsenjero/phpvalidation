@@ -1,0 +1,275 @@
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+/*select{
+    width:;
+}*/
+
+
+
+span {
+    display: block;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+
+.error {
+    color:blue;
+}
+
+
+
+#missinginput {
+    background-color: #ccc;
+    padding:20px 0;
+    width:50%;
+    margin-left:25%;
+    margin-top:20px;
+}
+#missinginput span{
+    margin-left: 30px;
+    color:#ab1400;
+}
+
+.apply-header {
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+    margin-top:30px;
+    background-color: #001;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.apply-header h1 {
+    text-align: center;
+    font-size: 2.4em;
+    color: #fff;
+    width:auto;
+    font-family:  'Palatino Linotype';
+}
+
+p, h1, h2 , h3 {
+    font-family:  'Helvetica', sans-serif;
+}
+
+p{
+    margin-top:4px;
+}
+
+h2 {
+    margin:30px 0;
+    font-weight: normal;
+}
+
+h3{
+    margin-bottom:0;
+    margin-top:34px;
+}
+
+
+.page-buttons-holder {
+    display: block;
+    width:auto;
+    margin-left: 36.6%;
+    height: 60px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .page-buttons-holder {
+        margin-left: 26.6%;
+    }
+}
+
+.page-buttons {
+    float: left;
+    margin-left: 70px;
+    width:50px;
+    height: 50px;
+    display: block;
+    background-color:silver;
+    border-radius:50%;
+}
+
+.page-buttons:first-child{
+    margin-left: 0;
+    background-color: #ffcb30;
+
+}
+
+.page1:hover {
+    cursor: pointer;
+}
+
+.page-buttons p {
+    font-family:  'Helvetica', sans-serif;
+    margin-top:15px;
+    margin-left:20px;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+
+
+
+form {
+    font-family:  'Helvetica', sans-serif;
+    margin-top:40px;
+    width:60%;
+    margin-left: 20%;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.column {
+    width:50%;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+
+fieldset{
+
+    width:90%;
+    margin-left: 5%;
+    padding:30px 0;
+}
+
+legend{
+    color:#840800;
+    margin-left: 30px;
+}
+
+label{
+    width:30%;
+    display: inline-block;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 60%;
+    padding:8px;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: inset 0 0 3px #8888bb;
+}
+
+
+input{
+    margin:12px 0;
+}
+
+input[type=checkbox], input[type=radio]{
+    width: 30%;
+}
+
+input[type=checkbox]:hover, input[type=radio]:hover{
+    cursor: pointer;
+}
+
+select{
+    width:180px;
+    height: 40px;
+    text-align-last: center;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+option{
+    font-size:16px;
+    margin-bottom: 10px;
+}
+
+
+.conditions {
+    height: 220px;
+    width:80%;
+    margin-left: 10%;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 40px;
+}
+
+.conditions p{
+    padding:20px;
+}
+
+
+input[type=submit]{
+    margin-top:30px;
+    height: 50px;
+    width:auto;
+    text-align: center;
+    padding:0 20px;
+    font-size: 0.9em;
+    margin-left:80%;
+    background-color: #333;
+    color: #fff;
+    border-radius: 7px 7px 7px 7px;
+}
+
+
+input[type=submit]:hover{
+    cursor: pointer;
+}
+
+.print, .confirm {
+    width:50%;
+    margin-left:0;
+    float: left;
+}
+
+.send-mail, .img-browse {
+    width:57%;
+    margin-left:0;
+}
+
+.confirm input[type=submit] {
+   margin-left: 0;
+}
+
+
+
+.conditions-checkbox-txt {
+    text-align: right;
+    font-size: 20px;
+    width: 97%;
+}
+
+input[type=checkbox].conditions-checkbox {
+    width: 10%;
+    margin-left:20%;
+}
+
+
+.confirm-div {
+    width:50%;
+    display: block;
+    margin-left: 25%;
+}
+
+.confirm-div p {
+    font-size: 1.2em;
+}
+
+
+.done {
+    margin-left: 40%;
+}
+
+.uploaded-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.uploaded-txt {
+    text-align: center;
+}
